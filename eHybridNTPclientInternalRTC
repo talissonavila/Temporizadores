@@ -9,8 +9,8 @@ Unix time é a contagem de segundos desde 01/01/1970.
 */
 
 // Replace with your network credentials
-const char *ssid     = "xis";
-const char *password = "esp32teste";
+char *ssid     = "xis";
+char *password = "esp32teste";
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org");
